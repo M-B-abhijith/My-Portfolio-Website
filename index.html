@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abhi.jith</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imag\favicon-32x32.png" type="image/x-icon">
+
+    <header >
+        <nav >
+            <ul>
+                <div class="ulmainbox">
+                    <div class="ulsubbox1">
+                        <a href="#Home" class="Home" onclick="scrollToSection('Hometop')">Home</a>
+                        <a href="#aboutme" onclick="scrollToSection('aboutsection')">About me</a>
+                        <a href="#skills" onclick="scrollToSection('skills')">Skills</a>
+                        <a href="#contact-section" onclick="scrollToSection('contactsection')">Contact me</a>
+                    </div>
+                    <div class="ulsubbox2">
+                        <a href="#Home" class="my_logo">abhi.jith</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+
+        <div class="container1" id="Hometop" >
+        
+            <img src="imag/phme2.png" class="my_image" alt="my_image">
+            <div class="container1sub1" >
+                <!-- <h1>Hi</h1> -->
+                <h1>Hi, </h1>
+                <h1>I'm <span>&nbsp;&nbsp;M B Abhijith Nair</span></h1>
+                <!-- this section for changing text like uiux designer front end developer data science enthusiast like this -->
+                <div id="animated-text"></div>
+                <br>
+                <div class="forcontactmebutton">
+                    <button class="contactmebutton" onclick="scrollToSection('contactsection')">Contact&nbsp;
+                        &nbsp;me</button>
+                    <button class="downloadresumebutton" onclick="window.location.href='https://drive.google.com/uc?export=download&id=1sCSj-LDkoBNviJUA6UEEKnAO73L5fhkn'">Download resume</button>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+<body>
+
+
+   <div id="aboutsection">
+    <div class="mainboxabout">
+       <br>
+        <h1>About Me</h1>
+        <br>
+        <p>Hello, I'm <span class="highlight">M B Abhijith Nair</span>, a seasoned web developer with expertise in creating visually appealing and user-friendly websites. My proficiency in various programming languages and frameworks ensures I deliver functional solutions that align with clients' unique needs. I prioritize seamless user experiences and stay updated on the latest industry trends to bring innovation to every project. If you're looking for a passionate and innovative web developer, I'd love to hear from you!</p>
+    </div>
+</div>
+
+
+
+
+    <!-- <div id="projectsection">
+        <div class="mainboxproject">
+            <h1>My projects</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod enim, repellendus voluptatibus rem odio
+                dolore
+                obcaecati maiores est tempore tempora eaque odit officia quos neque eveniet ad qui fugit non?</p>
+        </div>
+    </div> -->
+
+    <h2 id="projectheading" >My Projects</h2>
+
+    <section id="projectsection">
+
+    
+    <div id="projects">
+        <div class="project">
+            <h3 style="margin-bottom: 3%; color: #535252;">DanaSetu</h3>
+
+          <img src="imag/danasetu.png" alt="Project 1 Thumbnail" class="thumbnail">
+          <a href="https://github.com/M-B-abhijith/danasetu_full_project" target="_blank">
+            <button>View on GitHub</button>
+          </a>
+        </div>
+        
+        <!-- Repeat for other projects -->
+    </div>
+
+      <div id="projects">
+        <div class="project">
+            <h3 style="margin-bottom: 3%; color: #535252;">Todo Python Gui</h3>
+
+          <img src="imag/todoproject.jpeg" alt="Project 1 Thumbnail" class="thumbnail">
+          <a href="https://github.com/M-B-abhijith/" target="_blank">
+            <button>View on GitHub</button>
+          </a>
+        </div>
+        
+        <!-- Repeat for other projects -->
+    </div>
+      
+</section>
+
+
+      <section id="skills">
+        <h2 style="color: #535252; margin-bottom: 10%;">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="imag/javalogo1.png" alt="Java Logo" class="skilllogo">
+            </div>
+            <div class="skill">
+                <img src="imag/pythonlogo1.png" alt="Python Logo" class="skilllogo">
+            </div>
+            <div class="skill">
+                <img src="imag/mongologo1.png" alt="MongoDB Logo" class="skilllogo">
+            </div>
+            <div class="skill">
+                <img src="imag/nodelogo1.png" alt="Node.js Logo" class="skilllogo">
+            </div>
+            <div class="skill">
+                <img src="imag/reactlogo1.png" alt="React Logo" class="skilllogo">
+            </div>
+            <div class="skill">
+                <img src="imag/expresslogo1.png" alt="Express Logo" class="skilllogo">
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <div id="contactsection">
+        <h1 id="contactme" style="color: #535252;margin-bottom: 5%;">Contact me</h1>
+
+        <div class="contactcontainer">
+            <div class="mainboxcontact">
+
+                <br>
+                <form>
+                    <!-- <label for="name">Name</label> -->
+                    <input type="text" id="name" placeholder="Name" name="name" required>
+    
+                    <!-- <label for="email">Email</label> -->
+                    <input type="email" id="email" placeholder="email" name="email" required>
+    
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message" name="message" rows="4" required></textarea>
+    
+                    <input type="submit" value="Submit">
+
+                    <br>
+                    <br>
+                    <br>
+                </form>
+            </div>
+            <div class="truecontact">
+                <h3><span class="labeltruecontact">mail:&nbsp;</span>mbabhijithnair090@gmail.com</h3>
+                <h3><span class="labeltruecontact">phone:&nbsp;</span> 8848409436</h3>
+                <h3><span class="labeltruecontact">address:</span> Mundackal House,&nbsp;Panamattom P O, Kottayam District, Kerala</h3>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+
+<footer>
+    <div class="mainfooter">
+        <h3 style="color: aliceblue; margin: 1%; font-weight: 500;">Connect with me</h3>
+        <div class="footerbox">
+            <a href="https://www.instagram.com/m.b.abhijith/" target="_blank"><img src="imag/Instagram.png" height="30" width="30"></a>
+            <a href="https://www.linkedin.com/in/m-b-abhijith-nair-9b9b3324b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="imag/LinkedIn.png" height="30" width="30"></a>
+            <a href="https://github.com/M-B-abhijith" target="_blank"><img src="imag/GitHub.png" height="30" width="30"></a>
+        </div>
+    </div>
+   
+</footer>
+
+</html>
