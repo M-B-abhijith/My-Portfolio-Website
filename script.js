@@ -1,4 +1,3 @@
-// const phrases = ["Web Developer", "UI/UX Designer", "Data Science Enthusiast"];
 const phrases = ["Web Developer", "UI/UX Designer", "Btech Student"];
 
     let currentPhrase = 0;
